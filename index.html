@@ -1,0 +1,179 @@
+<!doctype html>
+<html>
+<head>
+  <title>html practice hello</title>
+  <meta charset="utf-8">
+  <script src="https://kit.fontawesome.com/7c9dcdefaf.js" crossorigin="anonymous"></script>
+
+  <style>
+
+
+#idx_top{ width:100%; height:75px; background-color: gray}
+#idx_middle1{ width:100%; height:350px; background-color: #DDDDDD;}
+#idx_middle2{ width:100%; height:450px; background-color: white;}
+#idx_middle3{ width:100%; height:100px; background-color: #DDDDDD;}
+
+
+  body{
+    margin: 0;
+  }
+  a{
+    text-decoration: none;
+      color: black;
+  }
+
+    .navbar{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #043343
+      padding: 8px 12px;
+    }
+    .navbar__logo{
+      font-size: 24px;
+    }
+    .navbar__logo_1{
+      color: black;
+    }
+    .navbar__menu{
+      display: flex;
+      list-style: none;
+      padding-left: 0;
+    }
+    .navbar__menu li{
+      padding: 8px 12px;
+    }
+    .navbar__menu li:hover{
+      background-color: white;
+      border-radius: 4px;
+    }
+
+  .class{
+  display: flex;
+  align-items: center;
+}
+  .class_3{
+    width: 300px;
+    height: 270px;
+    border: 1px solid black;
+    align-items: center;
+    margin: 20px;
+    border-radius: 4px;
+  }
+  .class_3_title{
+    font-size: 1.5rem;
+    background: rgda(0,0,0,.03);
+    text-align: center;
+    height: 53px;
+    line-height: 53px;
+    border-bottom: 1px solid black;
+    background-color: #66CCFF;
+  }
+  .class_3_title2{
+    font-size: 1.5rem;
+    background: rgda(0,0,0,.03);
+    text-align: center;
+    height: 53px;
+    line-height: 53px;
+    border-bottom: 1px solid black;
+    background-color: #FF9999;
+    }
+  }
+  </style>
+</head>
+
+<body>
+  <div id="conainer">
+    <div id="idx_top">
+      <header>
+      <nav class="navbar">
+        <div class="navbar__logo">
+          <a href="index.html"><i class="fas fa-globe"></i></a>
+          <a href="index.html"><strong>SCR Web</strong></a>
+            </div>
+
+        <ul class="navbar__menu">
+          <li><a href="class.html">강의 소개</a></li>
+          <li><a href="trip.html">여행 소개</a></li>
+          <div style="float: center;"></div>
+        </ul>
+      </nav>
+    </header>
+    </div>
+  </div>
+
+
+  <div id="conainer">
+    <div id="idx_middle1">
+      <p style="text-align:center"><img src="hello.jpg" width="20%"></p>
+      <h1><p style="text-align: center;">환영합니다!</p></h1>
+      <p style="text-align: center;">SCR Web에 오신것을 환영합니다. 이 사이트는 <strong>한남대 강의 3가지</strong>와 <strong>대전의 여행지</strong>를 소개하고 있습니다.</p>
+      <p>&nbsp;</p>
+    </div>
+  </div>
+
+
+<br>
+  <div id="conainer">
+    <div id="idx_middle2">
+      <h2><i class="fas fa-book"></i> 강의 소개</h2>
+      <p>· 온라인으로 진행되는 한남대학교 강의! 1학년 2학기에 배운 3가지 수업에 대해 소개합니다.
+      <div class="class">
+        <div class="class_3">
+          <div class="class_3_title">
+          <strong><a href="class.html">프로그래밍언어론</a></strong>
+        </div>
+        <div class="class_3_detail">
+          <p style="text-align:center"><a href="class.html"><img src="coding.jpg" width="100%"></a></p>
+        </div>
+      </div>
+      <div class="class_3">
+        <div class="class_3_title">
+        <strong><a href="class.html">미디어커뮤니케이션</a></strong>
+      </div>
+      <div class="class_3_detail">
+        <p style="text-align:center"><a href="class.html"><img src="midea.jpg" width="100%"></a></p>
+      </div>
+    </div>
+    <div class="class_3">
+      <div class="class_3_title">
+      <strong><a href="class.html">ICT와 4차산업혁명</a></strong>
+    </div>
+    <div class="class_3_detail">
+      <p style="text-align:center"><a href="class.html"><img src="ict.jpg" width="100%"></a></p>
+    </div>
+    </div>
+    </div>
+  </div>
+
+<hr>
+<br>
+<h2> <i class="fas fa-suitcase-rolling"></i> 여행 소개</h2>
+<p>· 평화의 도시 대전! 대전 추천 여행지에 대해 소개합니다.
+<div class="class">
+  <div class="class_3">
+    <div class="class_3_title2">
+    <strong><a href="trip.html">한밭수목원</a></strong>
+  </div>
+  <div class="class_3_detail">
+    <p style="text-align:center"><a href="trip.html"><img src="hb.jpeg" width="100%"></a></p>
+  </div>
+</div>
+<div class="class_3">
+  <div class="class_3_title2">
+  <strong><a href="trip.html">대전 오월드</a></strong>
+</div>
+<div class="class_3_detail">
+  <p style="text-align:center"><a href="trip.html"><img src="zoo.gif" width="100%"></a></p>
+</div>
+</div>
+<div class="class_3">
+<div class="class_3_title2">
+<strong><a href="trip.html">성심당</a></strong>
+</div>
+<div class="class_3_detail">
+<p style="text-align:center"><a href="trip.html"><img src="sung.jpg" width="100%"></a></p>
+</div>
+</div>
+
+</body>
